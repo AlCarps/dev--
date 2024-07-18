@@ -32,19 +32,23 @@
         </div>-->
         
         <div class="welcome">Welcome</div>
-        <input type="text" id="meuInput" name="meuInput" placeholder="Login">
+        <input type="text" id="meuInput" name="meuInput" placeholder="Digite seu usuário">
         <div class="password">Password</div>
-        <input type="password" id="meuInput" name="meuInput" placeholder="Login">
+        <input type="password" id="meuInput" name="outroInput" placeholder="Digite sua senha">
         
         <div class="esqueci"><a href="https://github.com/">Esqueceu a senha?</a></div> 
 
-        <button class="botao">Entrar</button>
+        <button type="submit" class="botao">Entrar</button>
         
+          
         <div class="newAccount">Create an account</div></div>
         
-    
-    
-    
+    <script>
+            document.getElementsByClassName("botao")[0].addEventListener("click", function() {
+              alert("Trouxa");
+            });
+    </script>    
+   
     
     </span>
 
